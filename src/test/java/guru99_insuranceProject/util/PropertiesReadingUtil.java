@@ -11,7 +11,7 @@ public class PropertiesReadingUtil {
     static {
         //will get execute before everything
         //2- get the path and store in String
-        String pathForPropertiesFile="configuration.properties";
+        String pathForPropertiesFile="src/test/resources/Configuration.properties";
 
         //3-  open the file use Fileinputstream method
         //we need to tell compiler to open this file
