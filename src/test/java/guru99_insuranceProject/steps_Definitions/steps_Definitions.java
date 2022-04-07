@@ -27,27 +27,27 @@ public class steps_Definitions {
     }
     @When("The user wants to enter first name as {string}")
     public void the_user_wants_to_enter_first_name_as(String string) {
-
+        accountRegistration.setFirstName(string);
     }
     @When("The user wants to enter surname name as {string}")
     public void the_user_wants_to_enter_surname_name_as(String string) {
-
+        accountRegistration.setLastName(string);
     }
     @When("The user wants to enter phone number as {string}")
     public void the_user_wants_to_enter_phone_number_as(String string) {
-
+        accountRegistration.setPhoneNumber(string);
     }
     @When("The user wants to enter date of birth as {string}")
     public void the_user_wants_to_enter_date_of_birth_as(String string) {
-
+        //tomorrow to be done
     }
     @When("The user wants to choose the license type as {string}")
     public void the_user_wants_to_choose_the_license_type_as(String string) {
-
+        accountRegistration.setLicenceType(string);
     }
     @When("The user wants to choose the license period as {string}")
     public void the_user_wants_to_choose_the_license_period_as(String string) {
-
+        accountRegistration.setLicencePeriod(string);
     }
     @When("The user wants to choose the occupation period as {string}")
     public void the_user_wants_to_choose_the_occupation_period_as(String string) {
@@ -71,18 +71,18 @@ public class steps_Definitions {
     }
     @When("The user wants to enter the emailAddress period as {string}")
     public void the_user_wants_to_enter_the_email_address_period_as(String string) {
-
+        accountRegistration.setEmailBox(string);
     }
     @When("The user wants to enter the password period as {string}")
     public void the_user_wants_to_enter_the_password_period_as(String string) {
-
+        accountRegistration.setPasswordBox(string);
     }
     @When("The user wants to enter the confirmPassword period as {string}")
     public void the_user_wants_to_enter_the_confirm_password_period_as(String string) {
-
+        accountRegistration.setConfirmPasswordBox(string);
     }
     @When("The user wants to click create button")
     public void the_user_wants_to_click_create_button() {
-
+        accountRegistration.setCreateButton();
     }
 }
